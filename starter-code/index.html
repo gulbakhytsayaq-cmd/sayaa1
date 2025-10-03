@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+    <style>
+      body {
+        background-color: aliceblue;
+      }
+      .line-1 {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+      }
+      .line1 {
+        display: flex;
+        gap: 1px;
+        color: azure;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        width: 700px;
+        height: 80px;
+        margin-top: 40px;
+      }
+      .line1 p {
+        padding-left: 80px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+      }
+      .line-3 {
+        display: flex;
+        position: relative;
+        z-index: 2;
+        padding-top: 100px;
+        justify-content: space-between;
+      }
+      .line2 {
+        color: white;
+      }
+      a {
+        cursor: pointer;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        style="position: fixed"
+        src="assets/home/background-home-desktop.jpg"
+        width="1600px"
+        height="800px"
+      />
+      <div class="line-1">
+        <img
+          style="position: relative; z-index: 2; left: 40px; top: 40px"
+          src="assets/shared/logo.svg"
+          width="50px"
+          height="50px"
+        />
+        <div class="line1">
+          <p>00 HOME</p>
+          <a href="destination-mars.html"> <p>01 DESTINATION</p></a>
+          <p>02 CREW</p>
+          <p>03 TECHHNOLOGY</p>
+        </div>
+      </div>
+      <div class="line-3">
+        <div class="line2">
+          <p
+            style="
+              font-size: 22px;
+              padding-left: 80px;
+              position: absolute;
+              top: 140px;
+            "
+          >
+            SO YOU WANT TO TRAVEL TO
+          </p>
+          <p style="font-size: 100px; padding-left: 80px">SPACE</p>
+          <p
+            style="
+              font-size: 15px;
+              width: 300px;
+              padding-left: 80px;
+              position: absolute;
+              top: 300px;
+            "
+          >
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <div class="photo">
+          <img
+            style="
+              border-radius: 100px;
+              position: absolute;
+              top: 230px;
+              left: 1100px;
+            "
+            src="assets/shared/white.jpeg"
+            width="200px"
+            height="200px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
